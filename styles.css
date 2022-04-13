@@ -34,6 +34,7 @@ body {
     width:100%;
     height:6.8rem;
     background-color: var(--dark);
+    z-index:10;
 }
 
 /* nav styles */
@@ -142,15 +143,16 @@ background-image: url(./Assets/banner.jpeg)
     display:flex;
     flex-direction:row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content:center;
 }
 
 .movie-card {
     position:relative;
     width:20rem;
     height:15rem;
-    margin:2rem;
+    margin:2rem; 
     border:1px solid var(--font-info)
+  
 }
 
 .movie-card img {
@@ -162,10 +164,10 @@ background-image: url(./Assets/banner.jpeg)
     position:absolute;
     top:0;
     left:0;
-    padding:8px;
+    padding:0.8rem;
     font-size: 1.4rem;
     letter-spacing:0.2rem;
-    font-weight: 700;
+    font-weight: 500;
     background-color: var(--primary-btn-hover)
 }
 
@@ -173,10 +175,10 @@ background-image: url(./Assets/banner.jpeg)
     position:absolute;
     top:0;
     right:0;
-    padding:8px;
+    padding:0.8rem;
     font-size: 1.4rem;
     letter-spacing:0.2rem;
-    font-weight: 700;
+    font-weight: 500;
     background-color: var(--movie-price); 
     color: var(--dark)
 }
